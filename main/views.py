@@ -20,8 +20,8 @@ def get_random_number(random_len):
 def send_message(phone, sms):
     sms_domain = 'https://smsc.kz/sys/send.php'
     sms_params = {
-        'login': 'rakhmetovmurod',
-        'psw': '283746Mu',
+        'login': 'mirzagaliyev',
+        'psw': 'GPJELff9CxKkj!s',
         'mes': sms,
         'fmt': 3,
         'phones': phone,

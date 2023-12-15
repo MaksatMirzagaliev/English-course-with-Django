@@ -1,0 +1,6 @@
+input_str = input("Введите имена студентов через пробел: ")
+names = tuple(input_str.split())
+
+# Выводим имена, содержащие фрагмент "ва"
+names_with_va = [name for name in names if "ва" in name]
+print("Имена, содержащие фрагмент 'ва':", " ".join(names_with_va))
